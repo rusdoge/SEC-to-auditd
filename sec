@@ -1,0 +1,2 @@
+RUN_DAEMON="yes"
+DAEMON_ARGS="-conf=/etc/sec.conf -input=/var/log/audit/audit.log -log=/var/log/sec/sec.log -pid=/run/sec.pid -dump=/var/log/sec/performance/sec.dump -dumpfts -ruleperf -detach -intcontexts"
